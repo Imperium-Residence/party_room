@@ -15472,7 +15472,7 @@ document.addEventListener('DOMContentLoaded', function () {
         events: [
             { id: '1', start: '2025-04-27T08:00:00', title: 'Apartamento 31', allDay: true, backgroundColor: '#ff10f3', borderColor: '#ff10f3', textColor: '#fff' },
             { id: '2', start: '2025-05-01T08:00:00', title: 'Apartamento 35', allDay: true, backgroundColor: '#0000FF', borderColor: '#0000FF', textColor: '#fff' },
-            { id: '3', start: '2025-05-05T08:00:00', title: 'Apartamento 34', allDay: true, backgroundColor: '#e67e22', borderColor: '#0000FF', textColor: '#fff' },
+            { id: '3', start: '2025-05-05T08:00:00', title: 'Apartamento 34', allDay: true, backgroundColor: '#e67e22', borderColor: '#e67e22', textColor: '#fff' },
             { id: '4', start: '2025-06-14T08:00:00', title: 'Apartamento 11', allDay: true, backgroundColor: '#B22222', borderColor: '#B22222', textColor: '#fff' },
         ],
         themeSystem: 'standard'
