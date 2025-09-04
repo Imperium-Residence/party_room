@@ -1,4 +1,3 @@
-
 # FullCalendar Premium TypeScript Example
 
 This is a fully-buildable example project for [FullCalendar Premium] and [TypeScript], leveraging [Webpack] and [ts-loader].
