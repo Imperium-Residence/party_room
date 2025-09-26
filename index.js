@@ -15476,11 +15476,11 @@ document.addEventListener('DOMContentLoaded', function () {
             { id: '4', start: '2025-06-21T08:00:00', title: 'Apartamento 15', allDay: true, backgroundColor: '#AFC1D6', borderColor: '#AFC1D6', textColor: '#000' },
             { id: '5', start: '2025-07-06T08:00:00', title: 'Apartamento 12', allDay: true, backgroundColor: '#D6CA98', borderColor: '#D6CA98', textColor: '#000' },
             { id: '6', start: '2025-07-19T08:00:00', title: 'Apartamento 11', allDay: true, backgroundColor: '#655A7C', borderColor: '#655A7C', textColor: '#FFF' },
-            { id: '7', start: '2025-10-04T08:00:00', title: 'Apartamento 36', allDay: true, backgroundColor: '#AB92BF', borderColor: '#AB92BF', textColor: '#000' },
             { id: '8', start: '2025-08-09T08:00:00', title: 'Apartamento 35', allDay: true, backgroundColor: '#3A86FF', borderColor: '#3A86FF', textColor: '#fff' },
             { id: '9', start: '2025-11-22T08:00:00', title: 'Apartamento 04', allDay: true, backgroundColor: '#cf270a', borderColor: '#cf270a', textColor: '#fff' },
             { id: '10', start: '2025-09-27T08:00:00', title: 'Apartamento 12', allDay: true, backgroundColor: '#0013ff', borderColor: '#0013ff', textColor: '#fff' },
             { id: '11', start: '2025-09-26T08:00:00', title: 'Apartamento 35', allDay: true, backgroundColor: '#0000FF', borderColor: '#0000FF', textColor: '#fff' },
+            { id: '12', start: '2025-11-08T08:00:00', title: 'Apartamento 34', allDay: true, backgroundColor: '#cf270a', borderColor: '#cf270a', textColor: '#fff' },
         ],
         themeSystem: 'standard'
     });
