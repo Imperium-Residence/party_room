@@ -15433,55 +15433,153 @@ __webpack_require__.r(__webpack_exports__);
 function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
-document.addEventListener('DOMContentLoaded', function () {
-    var calendarEl = document.getElementById('calendar');
+document.addEventListener("DOMContentLoaded", function () {
+    var calendarEl = document.getElementById("calendar");
     var calendar = new _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__.Calendar(calendarEl, {
         plugins: [_fullcalendar_interaction__WEBPACK_IMPORTED_MODULE_2__["default"], _fullcalendar_daygrid__WEBPACK_IMPORTED_MODULE_3__["default"], _fullcalendar_list__WEBPACK_IMPORTED_MODULE_4__["default"], _fullcalendar_timegrid__WEBPACK_IMPORTED_MODULE_5__["default"]],
         now: Date.now(),
         editable: true,
         aspectRatio: 1.8,
         initialDate: new Date(),
-        scrollTime: '00:00',
+        scrollTime: "00:00",
         headerToolbar: {
-            left: 'today prev,next',
-            center: 'title',
-            right: 'dayGridMonth',
+            left: "today prev,next",
+            center: "title",
+            right: "dayGridMonth",
         },
         titleFormat: function (date) {
             var _a, _b;
             console.log(date);
-            var formatter = new Intl.DateTimeFormat('pt-BR', {
-                month: 'long',
-                year: 'numeric'
+            var formatter = new Intl.DateTimeFormat("pt-BR", {
+                month: "long",
+                year: "numeric",
             });
             var parts = date.end ? formatter.formatToParts(date.end.marker) : [];
-            var month = (_a = parts.find(function (p) { return p.type === 'month'; })) === null || _a === void 0 ? void 0 : _a.value;
-            var year = (_b = parts.find(function (p) { return p.type === 'year'; })) === null || _b === void 0 ? void 0 : _b.value;
+            var month = (_a = parts.find(function (p) { return p.type === "month"; })) === null || _a === void 0 ? void 0 : _a.value;
+            var year = (_b = parts.find(function (p) { return p.type === "year"; })) === null || _b === void 0 ? void 0 : _b.value;
             return "".concat(capitalize(month), "/").concat(year);
         },
-        initialView: 'dayGridMonth',
+        initialView: "dayGridMonth",
         views: {
             resourceTimelineThreeDays: {
-                type: 'dayGridMonth',
+                type: "dayGridMonth",
                 duration: { days: 1 },
-                buttonText: '1 day'
-            }
+                buttonText: "1 day",
+            },
         },
         locale: _fullcalendar_core_locales_pt_br__WEBPACK_IMPORTED_MODULE_6__["default"],
         // firstDay: 1, // start week on Monday
         events: [
-            { id: '1', start: '2025-04-27T08:00:00', title: 'Apartamento 31', allDay: true, backgroundColor: '#ff10f3', borderColor: '#ff10f3', textColor: '#fff' },
-            { id: '2', start: '2025-05-01T08:00:00', title: 'Apartamento 35', allDay: true, backgroundColor: '#0000FF', borderColor: '#0000FF', textColor: '#fff' },
-            { id: '3', start: '2025-06-14T08:00:00', title: 'Apartamento 26', allDay: true, backgroundColor: '#B22222', borderColor: '#B22222', textColor: '#fff' },
-            { id: '4', start: '2025-06-21T08:00:00', title: 'Apartamento 15', allDay: true, backgroundColor: '#AFC1D6', borderColor: '#AFC1D6', textColor: '#000' },
-            { id: '5', start: '2025-07-06T08:00:00', title: 'Apartamento 12', allDay: true, backgroundColor: '#D6CA98', borderColor: '#D6CA98', textColor: '#000' },
-            { id: '6', start: '2025-07-19T08:00:00', title: 'Apartamento 11', allDay: true, backgroundColor: '#655A7C', borderColor: '#655A7C', textColor: '#FFF' },
-            { id: '8', start: '2025-08-09T08:00:00', title: 'Apartamento 35', allDay: true, backgroundColor: '#3A86FF', borderColor: '#3A86FF', textColor: '#fff' },
-            { id: '9', start: '2025-11-22T08:00:00', title: 'Apartamento 04', allDay: true, backgroundColor: '#cf270a', borderColor: '#cf270a', textColor: '#fff' },
-            { id: '10', start: '2025-09-27T08:00:00', title: 'Apartamento 12', allDay: true, backgroundColor: '#0013ff', borderColor: '#0013ff', textColor: '#fff' },
-            { id: '12', start: '2025-11-08T08:00:00', title: 'Apartamento 34', allDay: true, backgroundColor: '#cf270a', borderColor: '#cf270a', textColor: '#fff' },
+            {
+                id: "1",
+                start: "2025-04-27T08:00:00",
+                title: "Apartamento 31",
+                allDay: true,
+                backgroundColor: "#ff10f3",
+                borderColor: "#ff10f3",
+                textColor: "#fff",
+            },
+            {
+                id: "2",
+                start: "2025-05-01T08:00:00",
+                title: "Apartamento 35",
+                allDay: true,
+                backgroundColor: "#0000FF",
+                borderColor: "#0000FF",
+                textColor: "#fff",
+            },
+            {
+                id: "3",
+                start: "2025-06-14T08:00:00",
+                title: "Apartamento 26",
+                allDay: true,
+                backgroundColor: "#B22222",
+                borderColor: "#B22222",
+                textColor: "#fff",
+            },
+            {
+                id: "4",
+                start: "2025-06-21T08:00:00",
+                title: "Apartamento 15",
+                allDay: true,
+                backgroundColor: "#AFC1D6",
+                borderColor: "#AFC1D6",
+                textColor: "#000",
+            },
+            {
+                id: "5",
+                start: "2025-07-06T08:00:00",
+                title: "Apartamento 12",
+                allDay: true,
+                backgroundColor: "#D6CA98",
+                borderColor: "#D6CA98",
+                textColor: "#000",
+            },
+            {
+                id: "6",
+                start: "2025-07-19T08:00:00",
+                title: "Apartamento 11",
+                allDay: true,
+                backgroundColor: "#655A7C",
+                borderColor: "#655A7C",
+                textColor: "#FFF",
+            },
+            {
+                id: "8",
+                start: "2025-08-09T08:00:00",
+                title: "Apartamento 35",
+                allDay: true,
+                backgroundColor: "#3A86FF",
+                borderColor: "#3A86FF",
+                textColor: "#fff",
+            },
+            {
+                id: "9",
+                start: "2025-11-22T08:00:00",
+                title: "Apartamento 04",
+                allDay: true,
+                backgroundColor: "#cf270a",
+                borderColor: "#cf270a",
+                textColor: "#fff",
+            },
+            {
+                id: "10",
+                start: "2025-09-27T08:00:00",
+                title: "Apartamento 12",
+                allDay: true,
+                backgroundColor: "#0013ff",
+                borderColor: "#0013ff",
+                textColor: "#fff",
+            },
+            {
+                id: "11",
+                start: "2025-09-26T08:00:00",
+                title: "Apartamento 35",
+                allDay: true,
+                backgroundColor: "#0000FF",
+                borderColor: "#0000FF",
+                textColor: "#fff",
+            },
+            {
+                id: "12",
+                start: "2025-11-08T08:00:00",
+                title: "Apartamento 34",
+                allDay: true,
+                backgroundColor: "#cf270a",
+                borderColor: "#cf270a",
+                textColor: "#fff",
+            },
+            {
+                id: "13",
+                start: "2025-10-26T08:00:00",
+                title: "Apartamento 15",
+                allDay: true,
+                backgroundColor: "#AFC1D6",
+                borderColor: "#AFC1D6",
+                textColor: "#000",
+            },
         ],
-        themeSystem: 'standard'
+        themeSystem: "standard",
     });
     calendar.render();
 });
