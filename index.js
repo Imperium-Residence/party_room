@@ -15578,6 +15578,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 borderColor: "#AFC1D6",
                 textColor: "#000",
             },
+            {
+                id: "14",
+                start: "2025-11-20T08:00:00",
+                title: "Apartamento 22",
+                allDay: true,
+                backgroundColor: "#AFC1D6",
+                borderColor: "#AFC1D6",
+                textColor: "#000",
+            },
         ],
         themeSystem: "standard",
     });
