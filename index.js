@@ -15587,6 +15587,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 borderColor: "#AFC1D6",
                 textColor: "#000",
             },
+            {
+                id: "15",
+                start: "2025-12-06T08:00:00",
+                title: "Apartamento 06",
+                allDay: true,
+                backgroundColor: "#AFC1D6",
+                borderColor: "#AFC1D6",
+                textColor: "#000",
+            },
         ],
         themeSystem: "standard",
     });
