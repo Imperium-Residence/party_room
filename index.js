@@ -15590,7 +15590,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 id: "15",
                 start: "2025-12-06T08:00:00",
-                title: "Apartamento 06",
+                title: "Apartamento 31",
                 allDay: true,
                 backgroundColor: "#AFC1D6",
                 borderColor: "#AFC1D6",
