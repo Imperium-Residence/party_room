@@ -175,6 +175,15 @@ document.addEventListener("DOMContentLoaded", () => {
         borderColor: "#AFC1D6",
         textColor: "#000",
       },
+      {
+        id: "16",
+        start: "2025-12-25T08:00:00",
+        title: "Apartamento 05",
+        allDay: true,
+        backgroundColor: "#AFC1D6",
+        borderColor: "#AFC1D6",
+        textColor: "#000",
+      },
     ],
     themeSystem: "standard",
   });
