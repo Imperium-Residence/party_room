@@ -15606,7 +15606,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 textColor: "#000",
             },
             {
-                id: "16",
+                id: "17",
+                start: "2025-12-24T08:00:00",
+                title: "Apartamento 06",
+                allDay: true,
+                backgroundColor: "#AFC1D6",
+                borderColor: "#AFC1D6",
+                textColor: "#000",
+            },
+            {
+                id: "18",
                 start: "2025-12-31T08:00:00",
                 title: "Apartamento 05",
                 allDay: true,
