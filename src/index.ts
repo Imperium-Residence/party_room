@@ -220,6 +220,15 @@ document.addEventListener("DOMContentLoaded", () => {
         borderColor: "#AFC1D6",
         textColor: "#000",
       },
+      {
+        id: "21",
+        start: "2026-01-17T08:00:00",
+        title: "Apartamento 26",
+        allDay: true,
+        backgroundColor: "#AFC1D6",
+        borderColor: "#AFC1D6",
+        textColor: "#000",
+      },
     ],
     themeSystem: "standard",
   });
