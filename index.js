@@ -15650,6 +15650,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 borderColor: "#AFC1D6",
                 textColor: "#000",
             },
+            {
+                id: "22",
+                start: "2026-02-28T08:00:00",
+                title: "Apartamento 36",
+                allDay: true,
+                backgroundColor: "#3A86FF",
+                borderColor: "#3A86FF",
+                textColor: "#fff",
+            },
         ],
         themeSystem: "standard",
     });
