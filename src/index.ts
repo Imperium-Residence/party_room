@@ -238,6 +238,15 @@ document.addEventListener("DOMContentLoaded", () => {
         borderColor: "#3A86FF",
         textColor: "#fff",
       },
+      {
+        id: "23",
+        start: "2026-04-26T08:00:00",
+        title: "Apartamento 31",
+        allDay: true,
+        backgroundColor: "#3A86FF",
+        borderColor: "#3A86FF",
+        textColor: "#fff",
+      },
     ],
     themeSystem: "standard",
   });
