@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         id: "24",
-        start: "2026-3-14T08:00:00",
+        start: "2026-03-14T08:00:00",
         title: "Apartamento 04",
         allDay: true,
         backgroundColor: "#3A86FF",
