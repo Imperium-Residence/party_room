@@ -15685,6 +15685,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 backgroundColor: "#3A86FF",
                 borderColor: "#3A86FF",
                 textColor: "#fff",
+            },
+            {
+                id: "26",
+                start: "2026-06-13T08:00:00",
+                title: "Apartamento 05",
+                allDay: true,
+                backgroundColor: "#3A86FF",
+                borderColor: "#3A86FF",
+                textColor: "#fff",
             }
         ],
         themeSystem: "standard",
