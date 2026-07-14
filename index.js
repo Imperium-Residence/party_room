@@ -15433,9 +15433,9 @@ __webpack_require__.r(__webpack_exports__);
 function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
-document.addEventListener("DOMContentLoaded", function () {
-    var calendarEl = document.getElementById("calendar");
-    var calendar = new _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__.Calendar(calendarEl, {
+document.addEventListener("DOMContentLoaded", () => {
+    const calendarEl = document.getElementById("calendar");
+    const calendar = new _fullcalendar_core__WEBPACK_IMPORTED_MODULE_1__.Calendar(calendarEl, {
         plugins: [_fullcalendar_interaction__WEBPACK_IMPORTED_MODULE_2__["default"], _fullcalendar_daygrid__WEBPACK_IMPORTED_MODULE_3__["default"], _fullcalendar_list__WEBPACK_IMPORTED_MODULE_4__["default"], _fullcalendar_timegrid__WEBPACK_IMPORTED_MODULE_5__["default"]],
         now: Date.now(),
         editable: true,
@@ -15447,17 +15447,17 @@ document.addEventListener("DOMContentLoaded", function () {
             center: "title",
             right: "dayGridMonth",
         },
-        titleFormat: function (date) {
+        titleFormat: (date) => {
             var _a, _b;
             console.log(date);
-            var formatter = new Intl.DateTimeFormat("pt-BR", {
+            const formatter = new Intl.DateTimeFormat("pt-BR", {
                 month: "long",
                 year: "numeric",
             });
-            var parts = date.end ? formatter.formatToParts(date.end.marker) : [];
-            var month = (_a = parts.find(function (p) { return p.type === "month"; })) === null || _a === void 0 ? void 0 : _a.value;
-            var year = (_b = parts.find(function (p) { return p.type === "year"; })) === null || _b === void 0 ? void 0 : _b.value;
-            return "".concat(capitalize(month), "/").concat(year);
+            const parts = date.end ? formatter.formatToParts(date.end.marker) : [];
+            const month = (_a = parts.find((p) => p.type === "month")) === null || _a === void 0 ? void 0 : _a.value;
+            const year = (_b = parts.find((p) => p.type === "year")) === null || _b === void 0 ? void 0 : _b.value;
+            return `${capitalize(month)}/${year}`;
         },
         initialView: "dayGridMonth",
         views: {
@@ -15726,6 +15726,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 id: "31",
                 start: "2026-07-19T08:00:00",
                 title: "Apartamento 15",
+                allDay: true,
+                backgroundColor: "#3A86FF",
+                borderColor: "#3A86FF",
+                textColor: "#fff",
+            },
+            {
+                id: "32",
+                start: "2026-07-18T08:00:00",
+                title: "Apartamento 23",
                 allDay: true,
                 backgroundColor: "#3A86FF",
                 borderColor: "#3A86FF",
